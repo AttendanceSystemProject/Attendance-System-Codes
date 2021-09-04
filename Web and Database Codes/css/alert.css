@@ -1,0 +1,24 @@
+.alert_dev {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+.alert_edit_course_modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+.alert_dev_del {
+    position: absolute;
+    right: 20px;
+    height: 30px;
+    z-index: 9;
+}
+.alert_for_modal {
+    position: absolute;
+    right: 20px;
+    height: 30px;
+    z-index: 9;
+}

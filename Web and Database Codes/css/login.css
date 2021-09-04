@@ -1,0 +1,207 @@
+.center {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  width: 50%;
+}
+
+.headTxt {
+  font-size: 20px !important;
+  color: #949494;
+  font-weight: 800;
+  font-style: Italic;
+  font-family: Arial;
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 32px !important;
+  color: #021872;
+  text-shadow: 2px 2px 2px #b1b1b1;
+  font-weight: 800;
+  font-family: Arial;
+  font-style: italic;
+  text-align: center;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 16px !important;
+  color: #000283;
+  font-weight: 300;
+  font-family: Arial;
+  text-align: center;
+  margin: 0px;
+  padding-top: 0px;
+}
+
+.login-page {
+  width: 400px;
+  padding-top: 0px;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: rgba(196, 196, 196, 0);
+  max-width: 400px;
+  margin: auto auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.form input {
+  font-family: Arial;
+  outline: 0;
+  background: #ffffff;
+  width: 100%;
+  border: 1px solid #2e54bd;
+  margin-bottom: 20px;
+  padding: 11px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 18px;
+  border-radius: 10px 10px;
+}
+
+.form input:hover,.form input:active,.form input:focus {
+  background: #97b8ff88;
+}
+
+::placeholder {
+  font-family: Arial;
+  font-size: 16px;
+  color: #b1b1b1;
+}
+
+.form input:active::placeholder,.form input:focus::placeholder {
+  color: rgba(0, 0, 0, 0);
+}
+
+.form button {
+  font-family: Arial;
+  text-transform: uppercase;
+  outline: 0;
+  background: #000283;
+  width: 50%;
+  border: 0;
+  padding: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px 10px;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+  background: #000150;
+}
+
+.form .message {
+  margin: 20px 0 0;
+  color: #000000;
+  font-size: 16px;
+  font-family: Arial;
+}
+
+.form .message a {
+  color: #000283;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+.form .message a:hover,.form button:active,.form button:focus {
+  color: #ff0000;
+}
+
+.form .alert {
+   /* display: none; */
+   font-family: Arial;
+   font-size: 14px;
+   color: #ff0000;
+}
+
+.form .alert1 {
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+#reset{
+  display: none;
+}
+
+.form .reset-form {
+  display: none;
+}
+
+.container { 
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
